@@ -108,10 +108,10 @@ function Hero({ waveTrigger }) {
         </span>
       </motion.h1>
       <motion.p
-        initial={{opacity:0}}
-        animate={{opacity:1}}
-        transition={{delay:0.2}}
-        className="max-w-2xl text-muted-foreground"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.2 }}
+        className="max-w-2xl text-muted-foreground text-base sm:text-lg md:text-xl leading-relaxed px-4 sm:px-6"
       >
         I'm Ridho Ayudha Rachman, a software engineer who builds user-friendly and developer-efficient systems and architectures.
       </motion.p>
