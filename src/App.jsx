@@ -113,7 +113,7 @@ export default function App() {
             <a href="#" className="flex items-center gap-2 p-2 rounded-lg hover:bg-primary/20 transition">
               <Mail size={20} /> <span>ayudharachman@gmail.com</span>
             </a>
-            <a href="https://github.com/ayudharachman" target="_blank" className="flex items-center gap-2 p-2 rounded-lg hover:bg-primary/20 transition">
+            <a href="https://github.com/ayudhaa" target="_blank" className="flex items-center gap-2 p-2 rounded-lg hover:bg-primary/20 transition">
               <Github size={20} /> <span>GitHub</span>
             </a>
             <a href="https://www.linkedin.com/in/ridho-ayudha-rachman-269637151/" target="_blank" className="flex items-center gap-2 p-2 rounded-lg hover:bg-primary/20 transition">
