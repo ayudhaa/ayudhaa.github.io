@@ -113,7 +113,7 @@ function Hero({ waveTrigger }) {
         transition={{delay:0.2}}
         className="max-w-2xl text-muted-foreground"
       >
-        I'm Ridho, a software engineer who builds user-friendly and developer-efficient systems and architectures.
+        I'm Ridho Ayudha Rachman, a software engineer who builds user-friendly and developer-efficient systems and architectures.
       </motion.p>
     </section>
   );
