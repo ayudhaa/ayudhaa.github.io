@@ -14,7 +14,7 @@ export default {
 
   about: {
     title: "About Me",
-    text: "I'm enjoy building fast, responsive, and user-friendly web applications. I specialize in scalable backend systems, interactive frontends, and API integrations. Passionate about collaborating with teams, optimizing workflows, and continuously learning new technologies.",
+    text: "Enjoy building fast, responsive, and user-friendly web applications. I specialize in scalable backend systems, interactive frontends, and API integrations. Passionate about collaborating with teams, optimizing workflows, and continuously learning new technologies.",
   },
 
   experience: {

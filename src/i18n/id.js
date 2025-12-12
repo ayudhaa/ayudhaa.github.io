@@ -14,7 +14,7 @@ export default {
 
   about: {
     title: "Tentang Saya",
-    text: "Saya senang membangun aplikasi web yang cepat, responsif, dan ramah pengguna. Saya mengkhususkan diri dalam sistem backend yang dapat diskalakan, frontend interaktif, dan integrasi API. Saya bersemangat bekerja sama dengan tim, mengoptimalkan alur kerja, dan terus belajar teknologi baru.",
+    text: "Senang membangun aplikasi web yang cepat, responsif, dan ramah pengguna. Saya mengkhususkan diri dalam sistem backend yang dapat diskalakan, frontend interaktif, dan integrasi API. Saya bersemangat bekerja sama dengan tim, mengoptimalkan alur kerja, dan terus belajar teknologi baru.",
   },
 
   experience: {
