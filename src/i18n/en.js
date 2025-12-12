@@ -36,8 +36,16 @@ export default {
         "Work with high-volume logistics systems handling 30,000+ AWB daily.",
       ],
       images: [
-        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/projects/lapaksatria-1.png",
-        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/projects/lapaksatria-2.png"
+        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/satria-1.png",
+        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/satria-2.png",
+        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/satria-3.png",
+        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/satria-4.png",
+        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/satria-5.png",
+        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/satria-6.png",
+        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/satria-7.png",
+        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/satria-8.png",
+        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/satria-9.png",
+        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/satria-10.png"
       ]
     },
 
@@ -54,8 +62,8 @@ export default {
         "Improve UI/UX and reusable components.",
       ],
       images: [
-        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/projects/csa-1.jfif",
-        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/projects/csa-2.jfif"
+        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/csa-1.jfif",
+        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/csa-2.jfif"
       ]
     },
 
@@ -73,9 +81,10 @@ export default {
         "Collaborate with designers and PMs to deliver production-ready features.",
       ],
       images: [
-        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/projects/cekpremi-1.png",
-        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/projects/cekpremi-2.png",
-        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/projects/cekpremi-3.png"
+        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/cekpremi-1.png",
+        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/cekpremi-2.png",
+        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/cekpremi-3.png",
+        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/cekpremi-4.png"
       ]
     },
 
