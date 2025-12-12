@@ -192,6 +192,7 @@ function ExperienceItem({ tpath, isOpen, onToggle, onCloseGallery }) {
 
   const items = Array.isArray(data.items) ? data.items : [];
   const images = Array.isArray(data.images) ? data.images : [];
+  const tools = Array.isArray(data.tools) ? data.tools : [];
 
   const nextImage = () => setActiveIndex((prev) => (prev + 1) % images.length);
   const prevImage = () => setActiveIndex((prev) => (prev - 1 + images.length) % images.length);
@@ -224,6 +225,16 @@ function ExperienceItem({ tpath, isOpen, onToggle, onCloseGallery }) {
               <li key={idx}>{it}</li>
             ))}
           </ul>
+
+          {tools.length > 0 && (
+            <div className="mt-2 flex flex-wrap gap-2">
+              {tools.map((tool, idx) => (
+                <span key={idx} className="px-2 py-1 bg-gray-200 dark:bg-gray-700 rounded-full text-xs">
+                  {tool}
+                </span>
+              ))}
+            </div>
+          )}
 
           {data.link && (
             <div className="mt-4">
