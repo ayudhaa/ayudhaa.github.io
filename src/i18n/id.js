@@ -36,8 +36,8 @@ export default {
         "Menangani sistem logistik dengan volume tinggi, lebih dari 30.000 AWB setiap hari.",
       ],
       images: [
-        "/projects/lapaksatria-1.png",
-        "/projects/lapaksatria-2.png"
+        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/projects/lapaksatria-1.png",
+        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/projects/lapaksatria-2.png"
       ]
     },
 
@@ -54,8 +54,8 @@ export default {
         "Meningkatkan UI/UX serta membuat komponen yang dapat digunakan ulang.",
       ],
       images: [
-        "/projects/csa-1.jfif",
-        "/projects/csa-2.jfif"
+        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/projects/csa-1.jfif",
+        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/projects/csa-2.jfif"
       ]
     },
 
@@ -73,9 +73,9 @@ export default {
         "Berkoordinasi dengan desainer dan PM untuk menghasilkan fitur siap produksi.",
       ],
       images: [
-        "/projects/cekpremi-1.png",
-        "/projects/cekpremi-2.png",
-        "/projects/cekpremi-3.png"
+        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/projects/cekpremi-1.png",
+        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/projects/cekpremi-2.png",
+        "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/projects/cekpremi-3.png"
       ]
     },
 
