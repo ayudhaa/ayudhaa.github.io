@@ -85,6 +85,7 @@ export default {
         "Build backend APIs and role-based dashboards.",
         "Create reporting modules and multi-level approval workflows.",
         "Collaborate with designers and PMs to deliver production-ready features.",
+        "Optimize PostgreSQL queries to improve reporting performance."
       ],
       images: [
         "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/cekpremi-1.png",

@@ -63,6 +63,7 @@ export default {
         "Membangun modul untuk inventory, pembelian, dan operasional logistik.",
         "Integrasi backend dengan sistem ERP.",
         "Meningkatkan UI/UX serta membuat komponen yang dapat digunakan ulang.",
+        "Optimasi query MSSSQL untuk meningkatkan performa laporan."
       ],
       images: [
         "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/csa-1.jfif",
@@ -84,6 +85,7 @@ export default {
         "Membangun backend API dan dashboard berbasis role.",
         "Membuat modul reporting dan alur approval bertingkat.",
         "Berkoordinasi dengan desainer dan PM untuk menghasilkan fitur siap produksi.",
+        "Optimasi query PostgreSQL untuk meningkatkan performa laporan."
       ],
       images: [
         "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/cekpremi-1.png",
