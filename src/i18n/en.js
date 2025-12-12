@@ -32,6 +32,7 @@ export default {
         "Build API services for AWB tracking, SLA automation, courier performance, and operational workflows.",
         "Develop withdrawal and top-up balance systems with validation, approval, and financial tracking.",
         "Integrate payment gateways for automated payouts and digital transactions.",
+        "Created modul invoice and tax",
         "Optimize MySQL queries to improve reporting performance.",
         "Work with high-volume logistics systems handling 30,000+ AWB daily.",
       ],
@@ -76,7 +77,7 @@ export default {
       internal: "Other internal apps",
       items: [
         "Develop web applications for clients and internal needs.",
-        "Create modul insurance travel",
+        "Created modul insurance travel",
         "Build backend APIs and role-based dashboards.",
         "Create reporting modules and multi-level approval workflows.",
         "Collaborate with designers and PMs to deliver production-ready features.",

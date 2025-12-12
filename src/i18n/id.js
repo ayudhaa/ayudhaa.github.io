@@ -32,6 +32,7 @@ export default {
         "Membangun API untuk pelacakan AWB, otomatisasi SLA, performa kurir, dan alur operasional.",
         "Membuat sistem penarikan dan top-up saldo dengan validasi, approval, dan pencatatan finansial.",
         "Integrasi payment gateway untuk otomatisasi pembayaran dan transaksi digital.",
+        "Membuat modul faktur dan pajak",
         "Optimasi query MySQL untuk meningkatkan performa laporan.",
         "Menangani sistem logistik dengan volume tinggi, lebih dari 30.000 AWB setiap hari.",
       ],
