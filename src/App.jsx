@@ -418,7 +418,7 @@ export default function App() {
             </a>
 
             <a
-              href="https://github.com/ayudhaa"
+              href="https://github.com/ayudhaa?tab=repositories"
               target="_blank"
               rel="noreferrer"
               className={`flex items-center gap-2 p-2 rounded-lg transition ${
