@@ -14,7 +14,7 @@ export default {
 
   about: {
     title: "About Me",
-    text: "I'm a developer who enjoys crafting web applications that are fast, responsive, and user-friendly.",
+    text: "I'm enjoy building fast, responsive, and user-friendly web applications. I specialize in scalable backend systems, interactive frontends, and API integrations. Passionate about collaborating with teams, optimizing workflows, and continuously learning new technologies.",
   },
 
   experience: {
@@ -63,6 +63,7 @@ export default {
         "Build modules for inventory, purchasing, and logistics operations.",
         "Integrate backend systems with ERP.",
         "Improve UI/UX and reusable components.",
+        "Optimize MSSQL queries to improve reporting performance."
       ],
       images: [
         "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/csa-1.jfif",
