@@ -48,7 +48,7 @@ export default {
         "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/satria-9.png",
         "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/satria-10.png"
       ],
-      tools: ["CodeIgniter 3", "Laravel", "Node.js", "ReactJS", "Javascript/ JQuery", "MySQL", "MongoDB", "RESTful APIs", "Docker", "Git (Github, Gitlab)", "AWS S3"],
+      // tools: ["CodeIgniter 3", "Laravel", "Node.js", "ReactJS", "Javascript/ JQuery", "MySQL", "MongoDB", "RESTful APIs", "Docker", "Git (Github, Gitlab)", "AWS S3"],
     },
 
     // PT CSA
@@ -68,7 +68,7 @@ export default {
         "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/csa-1.jfif",
         "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/csa-2.jfif"
       ],
-      tools: ["CodeIgniter 3", "Laravel", "Node.js", "Javascript/ JQuery", "MySQL", "MSSQl", "RESTful APIs"],
+      // tools: ["CodeIgniter 3", "Laravel", "Node.js", "Javascript/ JQuery", "MySQL", "MSSQl", "RESTful APIs"],
     },
 
     // PT Reventon
@@ -91,7 +91,7 @@ export default {
         "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/cekpremi-3.png",
         "https://raw.githubusercontent.com/ayudhaa/ayudhaa.github.io/refs/heads/main/src/projects/cekpremi-4.png"
       ],
-      tools: ["CodeIgniter 3", "Laravel", "Node.js", "Javascript/ JQuery", "MySQL", "PostgreSQL", "RESTful APIs"],
+      // tools: ["CodeIgniter 3", "Laravel", "Node.js", "Javascript/ JQuery", "MySQL", "PostgreSQL", "RESTful APIs"],
     },
 
     projects: "➜ Lihat Projek",

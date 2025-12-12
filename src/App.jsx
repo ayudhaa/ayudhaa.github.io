@@ -226,7 +226,7 @@ function ExperienceItem({ tpath, isOpen, onToggle, onCloseGallery }) {
             ))}
           </ul>
 
-          {tools.length > 0 && (
+          {/* {tools.length > 0 && (
             <div className="mt-2 flex flex-wrap gap-2">
               {tools.map((tool, idx) => (
                 <span key={idx} className="px-2 py-1 bg-gray-200 dark:bg-gray-700 rounded-full text-xs">
@@ -234,7 +234,7 @@ function ExperienceItem({ tpath, isOpen, onToggle, onCloseGallery }) {
                 </span>
               ))}
             </div>
-          )}
+          )} */}
 
           {data.link && (
             <div className="mt-4">
