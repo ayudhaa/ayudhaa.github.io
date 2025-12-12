@@ -58,6 +58,7 @@ export default {
       internal: "Aplikasi internal",
       items: [
         "Mengembangkan sistem distribusi dan retail internal.",
+        "Membuat modul sms masking, untuk reminder customer perihal invoice",
         "Membangun modul untuk inventory, pembelian, dan operasional logistik.",
         "Integrasi backend dengan sistem ERP.",
         "Meningkatkan UI/UX serta membuat komponen yang dapat digunakan ulang.",

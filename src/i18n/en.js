@@ -58,6 +58,7 @@ export default {
       internal: "Internal apps",
       items: [
         "Develop internal distribution and retail systems.",
+        "Creating an SMS masking module to remind customers about invoices",
         "Build modules for inventory, purchasing, and logistics operations.",
         "Integrate backend systems with ERP.",
         "Improve UI/UX and reusable components.",
