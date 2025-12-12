@@ -76,6 +76,7 @@ export default {
       internal: "Other internal apps",
       items: [
         "Develop web applications for clients and internal needs.",
+        "Create modul insurance travel",
         "Build backend APIs and role-based dashboards.",
         "Create reporting modules and multi-level approval workflows.",
         "Collaborate with designers and PMs to deliver production-ready features.",

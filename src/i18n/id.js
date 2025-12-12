@@ -76,7 +76,7 @@ export default {
       internal: "Aplikasi internal lainnya",
       items: [
         "Mengembangkan aplikasi web untuk klien dan kebutuhan internal.",
-        "Membuat modul travel insurance",
+        "Membuat modul asuransi travel",
         "Membangun backend API dan dashboard berbasis role.",
         "Membuat modul reporting dan alur approval bertingkat.",
         "Berkoordinasi dengan desainer dan PM untuk menghasilkan fitur siap produksi.",
