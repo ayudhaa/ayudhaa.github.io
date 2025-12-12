@@ -194,11 +194,9 @@ function ExperienceItem({ tpath, isOpen, onToggle, onCloseGallery }) {
   const images = Array.isArray(data.images) ? data.images : [];
   const tools = Array.isArray(data.tools) ? data.tools : [];
 
-  // --- NAVIGATION ---
   const nextImage = () => setActiveIndex((prev) => (prev + 1) % images.length);
   const prevImage = () => setActiveIndex((prev) => (prev - 1 + images.length) % images.length);
 
-  // --- OPEN/CLOSE GALLERY ---
   const handleOpenGallery = () => {
     setShowGallery(true);
     onCloseGallery?.();
@@ -208,30 +206,8 @@ function ExperienceItem({ tpath, isOpen, onToggle, onCloseGallery }) {
     setShowGallery(false);
   };
 
-  // --- SWIPE HANDLERS (PURE JS) ---
-  let touchStartX = 0;
-  let touchEndX = 0;
-
-  const handleTouchStart = (e) => {
-    touchStartX = e.changedTouches[0].screenX;
-  };
-
-  const handleTouchMove = (e) => {
-    touchEndX = e.changedTouches[0].screenX;
-  };
-
-  const handleTouchEnd = () => {
-    const dx = touchEndX - touchStartX;
-
-    if (Math.abs(dx) > 50) {
-      if (dx < 0) nextImage();
-      else prevImage();
-    }
-  };
-
   return (
     <>
-      {/* --- EXPERIENCE LIST ITEM --- */}
       <li className="p-6 rounded-xl shadow bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 transition hover:shadow-lg">
         <button className="w-full flex justify-between items-center text-left" onClick={onToggle}>
           <div>
@@ -249,6 +225,16 @@ function ExperienceItem({ tpath, isOpen, onToggle, onCloseGallery }) {
               <li key={idx}>{it}</li>
             ))}
           </ul>
+
+          {/* {tools.length > 0 && (
+            <div className="mt-2 flex flex-wrap gap-2">
+              {tools.map((tool, idx) => (
+                <span key={idx} className="px-2 py-1 bg-gray-200 dark:bg-gray-700 rounded-full text-xs">
+                  {tool}
+                </span>
+              ))}
+            </div>
+          )} */}
 
           {data.link && (
             <div className="mt-4">
@@ -276,17 +262,15 @@ function ExperienceItem({ tpath, isOpen, onToggle, onCloseGallery }) {
         </div>
       </li>
 
-      {/* --- MODAL GALLERY --- */}
       {showGallery && (
         <div
           className="fixed inset-0 bg-black/70 dark:bg-black/80 flex justify-center items-center z-50 p-4"
-          onClick={handleCloseGallery}
+          onClick={handleCloseGallery} // klik backdrop untuk close
         >
           <div
             className="bg-white dark:bg-gray-900 p-4 rounded-xl shadow-xl w-full max-w-4xl mx-auto relative"
-            onClick={(e) => e.stopPropagation()}
+            onClick={(e) => e.stopPropagation()} // stop propagation agar klik di modal tidak close
           >
-            {/* Close Button */}
             <button
               onClick={handleCloseGallery}
               className="absolute -top-3 -right-3 md:top-2 md:right-2 bg-white dark:bg-gray-800 rounded-full p-2 shadow-lg hover:scale-110 transition-transform z-10"
@@ -294,13 +278,7 @@ function ExperienceItem({ tpath, isOpen, onToggle, onCloseGallery }) {
               <X size={18} className="text-black dark:text-white" />
             </button>
 
-            {/* IMAGE WRAPPER WITH SWIPE */}
-            <div
-              className="relative w-full h-[50vh] sm:h-[60vh] md:h-[70vh] rounded-lg overflow-hidden bg-gray-100 dark:bg-gray-800"
-              onTouchStart={handleTouchStart}
-              onTouchMove={handleTouchMove}
-              onTouchEnd={handleTouchEnd}
-            >
+            <div className="relative w-full h-[50vh] sm:h-[60vh] md:h-[70vh] rounded-lg overflow-hidden bg-gray-100 dark:bg-gray-800">
               <img
                 src={images[activeIndex]}
                 alt={`Project image ${activeIndex + 1}`}
@@ -308,7 +286,6 @@ function ExperienceItem({ tpath, isOpen, onToggle, onCloseGallery }) {
                 loading="lazy"
               />
 
-              {/* Desktop Prev/Next */}
               <button
                 onClick={prevImage}
                 className="absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition-all hidden md:block"
@@ -328,7 +305,6 @@ function ExperienceItem({ tpath, isOpen, onToggle, onCloseGallery }) {
               </div>
             </div>
 
-            {/* Desktop Thumbnails */}
             <div className="hidden md:flex justify-center gap-2 mt-4 overflow-x-auto py-2">
               {images.map((img, idx) => (
                 <button
@@ -338,12 +314,12 @@ function ExperienceItem({ tpath, isOpen, onToggle, onCloseGallery }) {
                     activeIndex === idx ? "border-primary" : "border-transparent dark:border-gray-700"
                   }`}
                 >
-                  <img src={img} alt={`Thumb ${idx}`} className="w-full h-full object-cover" />
+                  <img src={img} alt={`Thumbnail ${idx + 1}`} className="w-full h-full object-cover" />
                 </button>
               ))}
             </div>
 
-            {/* Mobile Controls */}
+            {/* Mobile Gallery */}
             <div className="md:hidden mt-4 flex items-center justify-between">
               <button
                 onClick={prevImage}
@@ -357,9 +333,7 @@ function ExperienceItem({ tpath, isOpen, onToggle, onCloseGallery }) {
                   <button
                     key={idx}
                     onClick={() => setActiveIndex(idx)}
-                    className={`w-2 h-2 rounded-full ${
-                      activeIndex === idx ? "bg-primary" : "bg-gray-300 dark:bg-gray-600"
-                    }`}
+                    className={`w-2 h-2 rounded-full ${activeIndex === idx ? "bg-primary" : "bg-gray-300 dark:bg-gray-600"}`}
                   />
                 ))}
               </div>
