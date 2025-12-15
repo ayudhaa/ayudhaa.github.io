@@ -211,9 +211,9 @@ function ExperienceItem({ tpath, isOpen, onToggle, onCloseGallery }) {
       <li className="p-6 rounded-xl shadow bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 transition hover:shadow-lg">
         <button className="w-full flex justify-between items-center text-left" onClick={onToggle}>
           <div>
-            <h3 className="text-xl font-semibold">{data.role}</h3>
+            <h3 className="text-xl font-semibold">{data.company}</h3>
             <p className="text-sm text-gray-500 dark:text-gray-300">
-              {data.company} · {data.period}
+              {data.period}
             </p>
           </div>
           {isOpen ? <ChevronUp /> : <ChevronDown />}

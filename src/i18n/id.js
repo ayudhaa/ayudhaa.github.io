@@ -22,7 +22,6 @@ export default {
 
     // PT SAP
     sap: {
-      role: "Software Engineer",
       company: "PT Satria Antaran Prima Tbk",
       period: "Nov 2021 – Sekarang",
       link: "lapaksatria.id",
@@ -53,7 +52,6 @@ export default {
 
     // PT CSA
     csa: {
-      role: "Software Engineer",
       company: "PT Catur Sentosa Adiprana Tbk",
       period: "2020 – 2021",
       internal: "Aplikasi internal",
@@ -74,7 +72,6 @@ export default {
 
     // PT Reventon
     reventon: {
-      role: "Software Engineer",
       company: "PT Reventon Mitra Pratama",
       period: "2018 – 2020",
       link: "cekpremi.com",
