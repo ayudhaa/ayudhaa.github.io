@@ -9,7 +9,7 @@ export default {
   hero: {
     title: "Hi",
     subtitle:
-      "I'm Ridho Ayudha Rachman, a software engineer who builds user-friendly and developer-efficient systems and architectures.",
+      "I'm Ridho Ayudha Rachman, a Full Stack Engineer who builds user-friendly and developer-efficient systems and architectures.",
   },
 
   about: {

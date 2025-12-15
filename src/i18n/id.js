@@ -9,7 +9,7 @@ export default {
   hero: {
     title: "Halo",
     subtitle:
-      "Saya Ridho Ayudha Rachman, seorang software engineer yang membangun sistem dan arsitektur yang efisien dan mudah digunakan.",
+      "Saya Ridho Ayudha Rachman, sebagai Full Stack Engineer yang membangun sistem dan arsitektur yang efisien dan mudah digunakan.",
   },
 
   about: {
