@@ -29,6 +29,7 @@ export default {
       items: [
         "Develop and maintain logistics and operational systems using CodeIgniter 3 and Node.js.",
         "Build API services for AWB tracking, SLA automation, courier performance, and operational workflows.",
+        "Develop lapaksatria.id for agents or seller created a shipment to buyer",
         "Develop withdrawal and top-up balance systems with validation, approval, and financial tracking.",
         "Integrate payment gateways for automated payouts and digital transactions.",
         "Created modul invoice and tax",

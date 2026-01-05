@@ -29,6 +29,7 @@ export default {
       items: [
         "Mengembangkan dan memelihara sistem logistik dan operasional menggunakan CodeIgniter 3 dan Node.js.",
         "Membangun API untuk pelacakan AWB, otomatisasi SLA, performa kurir, dan alur operasional.",
+        "Membuat lapaksatria.id untuk agen atau penjual yang membuat pengiriman ke pembeli.",
         "Membuat sistem penarikan dan top-up saldo dengan validasi, approval, dan pencatatan finansial.",
         "Integrasi payment gateway untuk otomatisasi pembayaran dan transaksi digital.",
         "Membuat modul faktur dan pajak",
